@@ -24,18 +24,18 @@
 }
 
 .container {
-    width: 100%;
-    will-change: contents;
-    height: 90%;
-    min-height: 566px;
-    position: absolute;
-    opacity: 0;
-    top: 5px;
-    margin: 0 auto;
-    z-index: 1;
-    transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
-    animation-delay: 1s;
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
 }
 
 .container.contact-page,
@@ -50,7 +50,7 @@
       margin-top: 0;
       position: relative;
       margin-bottom: 40px;
-      left: -10px;
+      left: 10px;
 
       &:before {
         content: '<h1>';
@@ -76,6 +76,12 @@
         margin-left: 20px;
         opacity: 0.6;
       }
+    }
+
+    li {
+      color:#fff;
+      font-size: 13px;
+      font-family: sans-serif;
     }
 
     p {
