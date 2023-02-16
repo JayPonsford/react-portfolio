@@ -1,4 +1,3 @@
-//import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom';
 import './index.scss';
 import { useEffect, useState } from 'react';
@@ -8,14 +7,19 @@ import Loader from 'react-loaders'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = [' ', 'J', 'a', 'y']
+    const nameArray = [' ', 'J', 'a', 'y', ',']
     const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000);
+        return () => {
+            clearTimeout();
+        }
     }, [])
+
+    //return clearTimeout()
 
     return (
         <>
@@ -27,7 +31,6 @@ const Home = () => {
                 <br/> 
                 <span className={`${letterClass} _13`}>I</span>
                 <span className={`${letterClass} _14`}>'m</span>
-                {/*<img src={LogoTitle} alt="developer"/>*/}
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 index={15}
@@ -35,10 +38,10 @@ const Home = () => {
                 <br />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={jobArray}
-                index={22}
+                index={20}
                 />
                 </h1>
-                <h2>Frontend Developer / Tech enthusiast / Coffee enjoyer </h2>
+                <h2>Frontend Lover / Tech Enthusiast / Coffee Enjoyer </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />

@@ -79,3 +79,19 @@
     transform: rotateX(90deg);
   }
 }
+
+@media screen and (max-width: 1200px){
+  .container.about .text-zone {
+      width: 80%;
+      min-height: 0;
+    }
+  
+    .stage-cube-cont {
+      width: 0;
+    }
+
+    .container.contact-page .text-zone, .container.about-page .text-zone, .container.portfolio-page .text-zone {
+      width: 80%;
+      transform: translateY(-70%);
+    }
+}
