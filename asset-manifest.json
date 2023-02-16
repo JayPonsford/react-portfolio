@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.17ec6531.css",
-    "main.js": "/home/static/js/main.775601c6.js",
-    "static/js/787.a2cb61a6.chunk.js": "/home/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo-s.png": "/home/static/media/logo-s.3bcd04c44a1022bf1822.png",
-    "static/media/helvetica-neu.ttf": "/home/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/home/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff2": "/home/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/home/index.html",
-    "main.17ec6531.css.map": "/home/static/css/main.17ec6531.css.map",
-    "main.775601c6.js.map": "/home/static/js/main.775601c6.js.map",
-    "787.a2cb61a6.chunk.js.map": "/home/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/contact/static/css/main.c45b5ea3.css",
+    "main.js": "/contact/static/js/main.ef44b6a7.js",
+    "static/js/787.a2cb61a6.chunk.js": "/contact/static/js/787.a2cb61a6.chunk.js",
+    "static/media/logo-s.png": "/contact/static/media/logo-s.3bcd04c44a1022bf1822.png",
+    "static/media/helvetica-neu.ttf": "/contact/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/contact/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/contact/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/contact/index.html",
+    "main.c45b5ea3.css.map": "/contact/static/css/main.c45b5ea3.css.map",
+    "main.ef44b6a7.js.map": "/contact/static/js/main.ef44b6a7.js.map",
+    "787.a2cb61a6.chunk.js.map": "/contact/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17ec6531.css",
-    "static/js/main.775601c6.js"
+    "static/css/main.c45b5ea3.css",
+    "static/js/main.ef44b6a7.js"
   ]
 }
