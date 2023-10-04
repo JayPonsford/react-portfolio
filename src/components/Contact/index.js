@@ -22,7 +22,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_1q8c2vc', 'template_7jfszuq', form.current, 'ih4zIcCEzYtUlL7C6')
+      emailjs.sendForm('service_vlm9xel', 'template_7jfszuq', form.current, 'ih4zIcCEzYtUlL7C6')
         .then((result) => {
             alert("Your email has been sent successfully!")
             window.location.reload(false)
